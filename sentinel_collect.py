@@ -33,7 +33,6 @@ Environment variables (REST API mode):
     AZURE_CLIENT_SECRET   Service principal client secret
     -- OR -- use DefaultAzureCredential (az login / managed identity)
 
-Author: Adapted for Microsoft Sentinel from Anton Ovrutsky's #AIForBlueTeam Day 23
 """
 
 import json
