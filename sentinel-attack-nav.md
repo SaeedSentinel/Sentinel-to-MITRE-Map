@@ -205,6 +205,3 @@ az monitor log-analytics workspace list --query "[].{name:name, id:customerId}" 
 # 5. Set env var
 export SENTINEL_WORKSPACE_ID="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 ```
-
-**Then ask Claude:**
-> `Generate an ATT&CK heatmap from my Sentinel workspace workspace-id=<GUID> days=30`
