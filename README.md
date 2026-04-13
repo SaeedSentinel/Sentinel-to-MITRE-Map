@@ -179,24 +179,6 @@ python attack-heatmap.py \
 
 ---
 
-## Using as a Claude Desktop Skill
-
-Copy `sentinel-attack-nav.md` to your Claude Desktop skills directory (e.g. `~/.claude/skills/`) and place the Python scripts somewhere accessible.
-
-Update the Configuration section at the top of the skill to match your paths:
-
-```
-ATTACK_JSON   = /path/to/enterprise-attack.json
-COLLECT_SCRIPT = /path/to/sentinel_collect.py
-HEATMAP_SCRIPT = /path/to/attack-heatmap.py
-AUTH_MODE      = cli    # or api
-```
-
-Then in Claude Desktop:
-> `Generate an ATT&CK heatmap from my Sentinel workspace workspace-id=abc123 days=30`
-
----
-
 ## Tables and Data Connectors
 
 | Sentinel Table | Data Connector | ATT&CK Coverage |
