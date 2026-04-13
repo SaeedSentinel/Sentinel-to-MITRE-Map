@@ -1,8 +1,5 @@
 # ATT&CK Navigator Heatmap for Microsoft Sentinel
 
-> **Adapted from Anton Ovrutsky's [#AIForBlueTeam Day 23](https://www.antonlovesdnb.com/aiforblueteam)**  
-> Original: Splunk → ATT&CK Navigator | This version: **Microsoft Sentinel → ATT&CK Navigator**
-
 Generate a MITRE ATT&CK Navigator heatmap from your actual Sentinel telemetry — showing which techniques you have visibility into, and where your blind spots are.
 
 ---
@@ -243,6 +240,5 @@ print('\n'.join(sorted(dcs)))
 
 - [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
 - [enterprise-attack.json (MITRE CTI)](https://github.com/mitre/cti/tree/master/enterprise-attack)
-- [Anton Ovrutsky's #AIForBlueTeam](https://www.antonlovesdnb.com/aiforblueteam) — original Splunk skill
 - [Log Analytics Query REST API](https://learn.microsoft.com/en-us/rest/api/loganalytics/dataaccess/query/execute)
 - [az monitor log-analytics query](https://learn.microsoft.com/en-us/cli/azure/monitor/log-analytics#az-monitor-log-analytics-query)
