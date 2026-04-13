@@ -13,8 +13,6 @@ Usage:
         --days 30 \
         --output /tmp/attack-navigator-layer.json
 
-Author: Adapted from Anton Ovrutsky's #AIForBlueTeam Day 23 (Splunk)
-        for Microsoft Sentinel by Claude
 """
 
 import json
